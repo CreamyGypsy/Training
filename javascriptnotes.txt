@@ -15,7 +15,7 @@ the other and then compare them. They call it coersion.
 === (strict equals) It will not convert, it will simply compare. A lot of times we want the conversion.
 != (bang equals) Loose, not equals.
 !=== (strict not equals)
-Logical operators: These are going to be        && (ampersands)        and      || (or)
+Logical operators: These are going to be && (ampersands) and || (or)
 p&&q these are statements (either T or F)  
 !(p&&q) logically equivalent to p or q   !(p||q) logically equivalent to p&&q
 Types are: String, Number, Bullion, Null and undefined, Symbol (only available in ES6)
@@ -31,3 +31,17 @@ Caniuse.com
 How to leave comments in code: // are a single line comment.
 a multi line comment begins with a /*
 Anything between to close: */
+
+________________________________________-
+Bullion logic to control execution flow of an application
+Deanie thinks of them as code paths or directions, like driving in a car, but you never make a wrong turn.
+
+
+
+Switch statement below Claires
+Switch state outline
+Cases with execute the first one that is true
+Loops - repeating a set of actions until a condition fails
+Loop is comprised of a test condition and a block.
+Each time the loop executes the block, it's called an iteration
+Expression one is an initialization, expression 2 is our conditional test, and expression 3 is our update
